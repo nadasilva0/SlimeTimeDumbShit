@@ -1,0 +1,1 @@
+execute as @a[tag=spinner] at @s run function dumb:crossfade3/startspin

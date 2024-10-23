@@ -1,0 +1,5 @@
+kill @e[type=minecraft:area_effect_cloud,tag=laserspawner1]
+kill @e[type=minecraft:area_effect_cloud,tag=laserspawner2]
+kill @e[type=minecraft:area_effect_cloud,tag=laserspawner3]
+kill @e[type=minecraft:area_effect_cloud,tag=laserspawner4]
+kill @e[type=minecraft:area_effect_cloud,tag=laserspawner5]

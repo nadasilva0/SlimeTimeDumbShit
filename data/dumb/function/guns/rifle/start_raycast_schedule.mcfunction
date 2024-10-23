@@ -1,0 +1,1 @@
+execute as @a[scores={rifleshots=1..}] at @s run function dumb:guns/rifle/start_raycast

@@ -1,0 +1,1 @@
+give @s slime_ball[custom_name='[{"text":"Essence ","color":"#D30909","bold":true,"italic":true},{"text":"of ","color":"#000000"},{"text":"Luck","color":"#095900"}]',custom_data={essenceofluck:1b}] 1

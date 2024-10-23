@@ -1,0 +1,1 @@
+execute as @a[tag=reborn] at @s run function dumb:rebirth/startbolt

@@ -1,0 +1,1 @@
+give @s diamond_horse_armor[custom_name='{"text":"Charm of Agility"}',custom_data={agility:1b}] 1

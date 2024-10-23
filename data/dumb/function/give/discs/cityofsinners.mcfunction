@@ -1,0 +1,1 @@
+give @s minecraft:music_disc_13[minecraft:jukebox_playable={song:'dumb:cityofsinners'},minecraft:custom_model_data=4] 1

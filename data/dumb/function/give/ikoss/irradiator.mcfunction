@@ -1,0 +1,1 @@
+give @s bow[custom_name='{"bold":true,"color":"aqua","italic":true,"text":"Ikoss Labs \\"Irradiator\\" Mk. III"}',unbreakable={},custom_data={irradiator:1b},enchantments={levels:{"minecraft:infinity":1}},enchantment_glint_override=false] 1

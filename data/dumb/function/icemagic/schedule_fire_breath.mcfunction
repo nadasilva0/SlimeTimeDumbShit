@@ -1,0 +1,1 @@
+execute as @a[tag=shooting_fire] at @s run function dumb:icemagic/fire_breath_start

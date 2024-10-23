@@ -1,0 +1,1 @@
+execute as @a[tag=freezing] at @s run function dumb:icemagic/df_loop

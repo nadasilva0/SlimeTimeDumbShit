@@ -1,0 +1,1 @@
+give @s netherite_sword[custom_name='{"bold":true,"color":"aqua","italic":true,"text":"Ikoss Labs \\"Crematoria\\" Mk. VII"}',lore=['{"text":"A powerful scythe powered by the"}','{"text":"likes of the Meteor."}'],enchantments={levels:{"minecraft:fire_aspect":5,"minecraft:knockback":1,"minecraft:sharpness":4,"minecraft:sweeping_edge":5}}] 1

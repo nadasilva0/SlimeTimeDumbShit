@@ -1,0 +1,1 @@
+give @s vex_spawn_egg[custom_name='{"text":"Watcher Watchling"}',entity_data={id:"minecraft:vex",CustomNameVisible:0b,Team:"watcher",CustomName:'{"text":"Watchling"}',HandItems:[{id:"minecraft:air",Count:1b},{}],HandDropChances:[0.000F,0.085F]}] 1

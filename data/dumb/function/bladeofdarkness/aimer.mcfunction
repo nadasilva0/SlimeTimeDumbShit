@@ -1,0 +1,1 @@
+tp @s ~ ~-1 ~ facing entity @n[distance=..16,tag=!darkcaster,tag=!hitbydarkness,type=!#slimelib:nottargetable]

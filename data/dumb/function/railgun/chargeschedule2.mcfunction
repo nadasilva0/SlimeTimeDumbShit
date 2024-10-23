@@ -1,0 +1,1 @@
+execute as @a[tag=charge] at @s run function dumb:railgun/charge2

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:zombie",
+              "nbt": "{Tags:[\"freaky\"]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "dumb:onhit/touched_freaky"
+    }
+}
+  

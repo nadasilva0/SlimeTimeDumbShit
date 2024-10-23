@@ -1,0 +1,1 @@
+give @s splash_potion[item_name='{"text":"Yeet Potion"}',rarity="epic",potion_contents={custom_color:16777215,custom_effects:[{id:"minecraft:levitation",amplifier:126b,duration:40,show_particles:0b}]}] 1

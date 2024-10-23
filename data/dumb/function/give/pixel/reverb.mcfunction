@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"bold":true,"color":"#052A32","italic":true,"text":"Reverb"}',unbreakable={},custom_data={reverb:1b},attribute_modifiers=[{id:"generic.attack_damage",type:"generic.attack_damage",amount:12,operation:"add_value",slot:"mainhand"},{id:"generic.attack_speed",type:"generic.attack_speed",amount:-3.4,operation:"add_value",slot:"mainhand"}]] 1

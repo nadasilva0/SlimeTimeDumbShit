@@ -1,0 +1,1 @@
+give @s minecraft:music_disc_13[minecraft:jukebox_playable={song:'dumb:meteorology'},minecraft:custom_model_data=1] 1

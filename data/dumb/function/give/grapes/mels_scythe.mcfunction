@@ -1,0 +1,1 @@
+give @s netherite_hoe[custom_name='{"text":"Mel\'s Scythe","color":"#0DBD19","bold":true,"italic":true}',lore=['{"text":"I\'m going to count to 3...","color":"#68FC80","italic":true}'],unbreakable={show_in_tooltip:false},custom_data={blood:1b},enchantments={levels:{"minecraft:sharpness":5},show_in_tooltip:false},enchantment_glint_override=false] 1

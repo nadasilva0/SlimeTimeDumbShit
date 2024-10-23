@@ -1,0 +1,2 @@
+execute if entity @s[scores={iscrouched=0,genericcooldown=..0}] run function dumb:crossfade3/counter_start
+execute if entity @s[scores={iscrouched=1,genericcooldown=..0}] run function dumb:crossfade3/darkarts_start

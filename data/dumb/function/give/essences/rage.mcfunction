@@ -1,0 +1,1 @@
+give @s slime_ball[custom_name='{"text":"Essence of Rage","color":"#D01455","bold":true,"italic":true}',lore=['{"text":"Three.","color":"#D01455","italic":false}']] 1

@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=lightball] at @s run function dumb:philbert/effect

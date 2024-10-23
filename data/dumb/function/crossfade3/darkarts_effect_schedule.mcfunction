@@ -1,0 +1,1 @@
+execute as @a[tag=darkarts] at @s run function dumb:crossfade3/darkarts_effect

@@ -1,0 +1,1 @@
+give @s slime_ball[custom_name='[{"text":"Essence of A","color":"#D680D3","bold":true,"italic":true},{"text":"pathy?","color":"#431B62","bold":true,"italic":true}]'] 1

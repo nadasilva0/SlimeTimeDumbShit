@@ -1,0 +1,1 @@
+title @s actionbar ["",{"text":"Recharging! [[","color":"#FF0000"},{"score":{"name":"@s","objective":"charmcooldown"},"color":"#FF0000"},{"text":"]]","color":"#FF0000"}]

@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=slash_particle_w] at @s run function dumb:jawsofbabel/slash_w/slash_rotate

@@ -1,0 +1,1 @@
+give @s cobblestone[food={nutrition:1,saturation:1,is_meat:true,eat_seconds:90}] 1

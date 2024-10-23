@@ -1,0 +1,1 @@
+give @s splash_potion[item_name='{"text":"Elixir of Immortality"}',rarity="epic",potion_contents={custom_color:65535,custom_effects:[{id:"minecraft:resistance",amplifier:5b,duration:-1,show_particles:0b}]}] 1

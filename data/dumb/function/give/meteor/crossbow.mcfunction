@@ -1,0 +1,1 @@
+give @s crossbow[custom_name='{"text":"Meteorite Crossbow","color":"#9214FF","bold":true,"italic":true}',unbreakable={},repair_cost=999999,custom_data={meteorcrossbow:1b}] 1

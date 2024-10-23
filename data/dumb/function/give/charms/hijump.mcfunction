@@ -1,0 +1,1 @@
+give @s diamond_horse_armor[custom_name='{"text":"Charm of Leaping"}',custom_data={hijump:1b}] 1

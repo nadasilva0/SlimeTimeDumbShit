@@ -1,0 +1,1 @@
+give @s diamond_horse_armor[custom_name='{"text":"Charm of Resistance"}',custom_data={shield:1b}] 1

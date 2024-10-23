@@ -1,0 +1,2 @@
+execute if entity @s[scores={iscrouched=0,reverbshriekcooldown=..0}] run function dumb:crossfade2/startwall
+execute if entity @s[scores={iscrouched=1,reverbshriekcooldown=..0}] run function dumb:crossfade2/startfloor

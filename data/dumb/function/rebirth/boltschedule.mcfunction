@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=rebirthbolt] at @s run function dumb:rebirth/bolt

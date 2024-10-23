@@ -1,0 +1,1 @@
+give @s glow_item_frame[custom_name='{"text":"Invisible Glow Item Frame","italic":false}',entity_data={id:"minecraft:glow_item_frame",Invisible:1b}] 1

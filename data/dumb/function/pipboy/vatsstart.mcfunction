@@ -1,0 +1,2 @@
+execute if score @s charmcooldown matches 0 run function dumb:pipboy/vats
+execute if score @s charmcooldown matches 1.. run title @s actionbar ["",{"text":"Recharging! [[","color":"red"},{"score":{"name":"@s","objective":"charmcooldown"},"color":"red"},{"text":"]]","color":"red"}]

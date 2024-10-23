@@ -1,0 +1,1 @@
+give @s diamond_horse_armor[custom_name='{"text":"Charm of Ink"}',custom_data={shadow:1b}] 1

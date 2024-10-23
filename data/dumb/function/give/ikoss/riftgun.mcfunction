@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"bold":true,"color":"aqua","italic":true,"text":"Ikoss Labs Rift Gun Mk VII"}',unbreakable={},custom_data={riftgun:1b}] 1

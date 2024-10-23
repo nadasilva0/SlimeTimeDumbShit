@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"text":"Essence Disruptor","color":"#AD54FF","bold":true,"italic":true}',unbreakable={},damage=24,custom_data={soulstealer:1b}] 1

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.8": {
+              "predicates": {
+                "minecraft:custom_data": "{eyeofbabel:1b}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dumb:charms/babel/armorcrunch_eye"
+  }
+}

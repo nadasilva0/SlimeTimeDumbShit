@@ -1,0 +1,1 @@
+scoreboard players set @s abilitytype 13

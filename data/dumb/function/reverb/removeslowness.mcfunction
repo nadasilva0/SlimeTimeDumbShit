@@ -1,0 +1,1 @@
+execute as @a[tag=flurry] run effect clear @s slowness

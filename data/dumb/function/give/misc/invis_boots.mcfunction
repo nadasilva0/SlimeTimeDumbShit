@@ -1,0 +1,1 @@
+give @s netherite_boots[custom_name='{"text":"Invis Boots"}',unbreakable={},enchantments={levels:{"minecraft:protection":4}}] 1

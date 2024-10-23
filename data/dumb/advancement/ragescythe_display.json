@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "predicates": {
+                    "minecraft:custom_data": "{ragescythe:1b}"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dumb:ragescythe/display_rage"
+  }
+}

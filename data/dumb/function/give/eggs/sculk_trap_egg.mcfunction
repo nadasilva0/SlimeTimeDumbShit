@@ -1,0 +1,1 @@
+give @s warden_spawn_egg[custom_name='{"text":"Sculk Trap"}',entity_data={id:"minecraft:armor_stand",NoGravity:1b,Invulnerable:1b,Invisible:1b,NoBasePlate:1b,Tags:["sculktrap"],ArmorItems:[{},{},{},{id:"minecraft:carved_pumpkin",Count:1b,tag:{display:{Name:'{"text":"Sculk Trap Open"}'}}}]}] 1

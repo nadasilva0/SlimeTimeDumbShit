@@ -1,0 +1,1 @@
+execute as @a[tag=philcaster] at @s run function dumb:philbert/cooldown

@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=rootslamcreature] at @s run function dumb:roots/slameffect

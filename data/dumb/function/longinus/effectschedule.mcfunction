@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=longinus] at @s run function dumb:longinus/effect

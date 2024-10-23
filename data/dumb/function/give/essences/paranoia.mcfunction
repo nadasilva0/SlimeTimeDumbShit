@@ -1,0 +1,1 @@
+give @s slime_ball[custom_name='{"text":"Essence of Paranoia","color":"#5E2F6F","bold":true,"italic":true}'] 1

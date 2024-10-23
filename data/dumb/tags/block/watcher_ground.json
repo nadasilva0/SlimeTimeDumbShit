@@ -1,0 +1,32 @@
+{
+    "values":[
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:podzol",
+    "minecraft:rooted_dirt",
+    "minecraft:gravel",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:stone",
+    "minecraft:granite",
+    "minecraft:netherrack",
+    "minecraft:mycelium",
+    "minecraft:soul_soil",
+    "minecraft:soul_sand",
+    "minecraft:mud",
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:red_sand",
+    "minecraft:snow",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:dirt_path",
+    "minecraft:moss_block",
+    "minecraft:infested_stone",
+    "minecraft:infested_cobblestone",
+    "minecraft:dripstone_block",
+    "minecraft:coal_ore",
+    "minecraft:iron_ore"
+    ]
+}

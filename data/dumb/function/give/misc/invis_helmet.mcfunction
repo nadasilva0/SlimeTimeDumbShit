@@ -1,0 +1,1 @@
+give @s netherite_helmet[custom_name='{"text":"Invis Helmet"}',unbreakable={},enchantments={levels:{"minecraft:protection":4}}] 1

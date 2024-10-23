@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"color":"aqua","italic":false,"text":"Sculk Sneaker"}',custom_data={sneaker:1b}] 1

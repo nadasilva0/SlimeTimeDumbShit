@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"text":"Pistol","italic":false}',unbreakable={},custom_data={pistol:1b}] 1

@@ -1,0 +1,2 @@
+execute as @a[distance=..80,name=!ChooTrain] at @s if block ~ ~-1 ~ minecraft:red_terracotta run effect give @s wither 2 0 true
+particle minecraft:dust_color_transition{from_color:[1.000,1.000,1.000],scale:1.5,to_color:[1.000,0.000,0.000]} ~ ~ ~ 0.1 0.1 0.1 5 7 force

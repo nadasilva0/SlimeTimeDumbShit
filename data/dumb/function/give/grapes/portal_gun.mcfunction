@@ -1,0 +1,1 @@
+give @s bow[custom_name='{"text":"Shel\'s Portal Gun","color":"#00DBE3","bold":true,"italic":true}',lore=['{"text":"This is the part where I kill you","color":"#FC7208","italic":true}'],unbreakable={show_in_tooltip:false},custom_data={portalgun:1b},enchantments={levels:{"minecraft:infinity":1},show_in_tooltip:false},enchantment_glint_override=false] 1

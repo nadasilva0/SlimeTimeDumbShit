@@ -1,0 +1,1 @@
+execute as @a[tag=meteorprimed] at @s run function dumb:charms/meteor/blast

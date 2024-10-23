@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"text":"Fall of Babylon","color":"#B01313","bold":true,"italic":true}',unbreakable={},damage=24,custom_data={babylfall:1b}] 1

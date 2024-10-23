@@ -1,0 +1,1 @@
+give @s slime_ball[custom_name='[{"text":"Tarnished Essence ","color":"#D01455","bold":true,"italic":true},{"text":"of Motherhood","color":"#FC88B5","bold":true,"italic":true}]',lore=['{"text":"Two...","color":"#FC88B5"}']] 1

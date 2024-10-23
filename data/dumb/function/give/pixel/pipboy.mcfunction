@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"text":"Pip-Boy","color":"#00FF33","bold":true,"italic":false}',unbreakable={},custom_data={pipboy:1b}] 1

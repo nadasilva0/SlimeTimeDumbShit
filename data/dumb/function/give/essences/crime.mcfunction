@@ -1,0 +1,1 @@
+give @s slime_ball[custom_name='{"text":"Essence of Crime","color":"#792727","bold":true,"italic":true}'] 1

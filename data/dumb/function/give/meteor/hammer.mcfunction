@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"text":"Meteor Hammer"}',custom_data={meteorhammer:1b}] 1

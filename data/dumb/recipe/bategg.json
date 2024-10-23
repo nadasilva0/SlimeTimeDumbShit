@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#Z#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_star"
+    },
+    "Z": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "id": "minecraft:bat_spawn_egg"
+  }
+}

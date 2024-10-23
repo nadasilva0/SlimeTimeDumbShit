@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"text":"Rebirth","color":"#FF9A6C","bold":true,"italic":true}',unbreakable={},damage=24,custom_data={rebirth:1b}] 1

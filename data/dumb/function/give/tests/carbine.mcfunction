@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"text":"carbine","italic":false}',custom_data={carbine:1b}] 1

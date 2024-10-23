@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"text":"Big Iron","italic":false}',unbreakable={},custom_data={bigiron:1b}] 1

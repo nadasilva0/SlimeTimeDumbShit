@@ -1,0 +1,1 @@
+execute as @a[tag=sneaker] at @s run function dumb:sneaker/effect

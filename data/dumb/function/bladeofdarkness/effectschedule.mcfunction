@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=darkball] at @s run function dumb:bladeofdarkness/effect

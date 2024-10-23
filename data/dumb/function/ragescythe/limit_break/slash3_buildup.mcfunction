@@ -1,0 +1,1 @@
+execute as @a[tag=has_ragescythe] at @s run playsound minecraft:custom.rageslash_chargeup master @a ~ ~ ~ 1 1

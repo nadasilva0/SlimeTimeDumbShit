@@ -1,0 +1,1 @@
+give @s slime_ball[custom_name='{"text":"Essence of Torment","color":"#20132F","bold":true,"italic":true}'] 1

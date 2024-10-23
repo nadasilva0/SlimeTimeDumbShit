@@ -1,0 +1,1 @@
+execute as @a[tag=flurry] at @s run function dumb:reverb/flurry

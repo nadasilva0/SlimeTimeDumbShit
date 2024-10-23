@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"text":"Brick","italic":false}',lore=['{"text":"Not the one that kills gods"}'],custom_data={brick:1b}] 1

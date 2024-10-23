@@ -1,0 +1,1 @@
+give @s slime_ball[custom_name='{"text":"Essence of Motherhood","color":"#FC88B5","bold":true,"italic":true}',lore=['{"text":"I\'m going to count to three...","color":"#FC88B5"}']] 1

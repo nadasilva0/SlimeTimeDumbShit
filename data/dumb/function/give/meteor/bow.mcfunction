@@ -1,0 +1,1 @@
+give @s bow[custom_name='{"text":"Meteorite Bow","color":"#9214FF","bold":true,"italic":true}',unbreakable={},repair_cost=999999,custom_data={meteorbow:1b}] 1

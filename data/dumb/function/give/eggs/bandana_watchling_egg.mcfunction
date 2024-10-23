@@ -1,0 +1,1 @@
+give @s allay_spawn_egg[entity_data={id:"minecraft:allay",Team:"grape",CustomName:'{"text":"Bandana Watchling"}'}] 1

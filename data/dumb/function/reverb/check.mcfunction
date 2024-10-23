@@ -1,0 +1,2 @@
+execute if entity @s[scores={iscrouched=0,reverbshriekcooldown=..0}] run function dumb:reverb/shriek
+execute if entity @s[scores={iscrouched=1,reverbdashcooldown=..0}] run function dumb:reverb/startdash

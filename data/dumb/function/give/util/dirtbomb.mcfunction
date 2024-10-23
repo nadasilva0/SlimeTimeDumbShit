@@ -1,0 +1,1 @@
+give @s command_block[custom_name='{"text":"Dirt Bomb"}',lore=['{"text":"Fills dirt"}'],block_entity_data={id:"minecraft:command_block",auto:1b,Command:"fill ~-3 ~-3 ~-3 ~3 ~3 ~3 dirt",CustomName:'{"text":"Dirt Bomb"}'}] 1

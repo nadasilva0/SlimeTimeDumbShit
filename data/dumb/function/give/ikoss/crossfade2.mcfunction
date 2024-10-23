@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"bold":true,"color":"#0F7C94","italic":true,"text":"Crossfade"}',unbreakable={},custom_data={crossfade:2b},attribute_modifiers=[{id:"generic.attack_damage",type:"generic.attack_damage",amount:7,operation:"add_value",slot:"mainhand"},{id:"generic.attack_speed",type:"generic.attack_speed",amount:-1.7,operation:"add_value",slot:"mainhand"}]] 1

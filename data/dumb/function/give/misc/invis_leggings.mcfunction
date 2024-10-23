@@ -1,0 +1,1 @@
+give @s netherite_leggings[custom_name='{"text":"Invis Leggings"}',unbreakable={},enchantments={levels:{"minecraft:protection":4}}] 1

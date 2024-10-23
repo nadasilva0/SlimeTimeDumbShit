@@ -1,0 +1,1 @@
+execute as @a[tag=rifted] at @s run function dumb:riftgun/riftend

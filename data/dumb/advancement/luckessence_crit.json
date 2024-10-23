@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.8": {
+              "predicates": {
+                "minecraft:custom_data": "{essenceofluck:1b}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dumb:charms/luck/roll_crit"
+  }
+}

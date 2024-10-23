@@ -1,0 +1,1 @@
+execute as @a[tag=catalyst] at @s run function dumb:fallofbabylon/startbolt

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": "{meteorsword:1b}"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dumb:meteor/swordeffects_player"
+  }
+}

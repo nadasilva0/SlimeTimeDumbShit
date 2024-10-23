@@ -1,0 +1,1 @@
+give @s armor_stand[custom_name='{"text":"ARMor Stand","italic":false}',entity_data={id:"minecraft:armor",ShowArms:1b}] 1

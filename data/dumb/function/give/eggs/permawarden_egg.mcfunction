@@ -1,0 +1,1 @@
+give @s warden_spawn_egg[entity_data={id:"minecraft:warden",PersistenceRequired:1b}] 1

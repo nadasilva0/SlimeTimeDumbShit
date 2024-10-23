@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"text":"The Lookatizer","italic":false}',unbreakable={},custom_data={lookatizer:12b}] 1

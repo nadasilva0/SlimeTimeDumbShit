@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=slash_spin] at @s run function dumb:ragescythe/spin/slash_rotate

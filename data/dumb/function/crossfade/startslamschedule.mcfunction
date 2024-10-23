@@ -1,0 +1,1 @@
+execute as @a[tag=slimeshriekparticle] at @s run function dumb:crossfade/startslam

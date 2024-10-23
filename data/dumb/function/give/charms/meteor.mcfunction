@@ -1,0 +1,1 @@
+give @s diamond_horse_armor[custom_name='{"text":"Charm of the Meteor"}',custom_data={meteorcharm:1b}] 1

@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=purgatory] at @s run function dumb:fallofbabylon/bolt

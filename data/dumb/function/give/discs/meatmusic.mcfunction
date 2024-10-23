@@ -1,0 +1,1 @@
+give @s minecraft:music_disc_13[minecraft:jukebox_playable={song:'dumb:meatmusic'},minecraft:custom_model_data=5] 1
