@@ -1,1 +1,1 @@
-execute as @a[tag=charge] at @s run function dumb:railgun/charge4
+execute as @a[tag=railguncharging] at @s run function dumb:railgun/charge4

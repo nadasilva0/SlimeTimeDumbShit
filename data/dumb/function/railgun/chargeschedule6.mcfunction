@@ -1,1 +1,1 @@
-execute as @a[tag=charge] at @s run function dumb:railgun/start_raycast
+execute as @a[tag=railguncharging] at @s run function dumb:railgun/charge6

@@ -17,5 +17,6 @@ scoreboard players set @s sniperammo 0
 scoreboard players set @s bigironammo 0
 scoreboard players set @s genericcooldown 0
 scoreboard players set @s swordAttackState 0
+scoreboard players set @s hold_cooldown 0
 
 tag @s remove boxcutterihardlyknower

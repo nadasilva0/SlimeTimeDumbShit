@@ -28,11 +28,6 @@ execute if entity @s[scores={genericcooldown=..0,iscrouched=1},nbt={SelectedItem
 
 ## Pixels
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{reverb:1b}}}}] run function dumb:reverb/check
-execute if entity @s[scores={genericcooldown=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{railgun:1b}}}}] run function dumb:railgun/start
-execute if entity @s[scores={iscrouched=0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{pipboy:1b}}}}] run function dumb:pipboy/start
-execute if entity @s[scores={iscrouched=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{pipboy:1b}}}}] run function dumb:pipboy/vatsstart
-execute if entity @s[scores={gundelay=..0,iscrouched=0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{marksman:1b}}}}] run function dumb:marksman/start_raycast
-execute if entity @s[scores={genericcooldown=..0,iscrouched=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{marksman:1b}}}}] run function dumb:marksman/coin
 execute if entity @s[scores={sculkSneakToggle=1,iscrouched=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{sneaker:1b}}}}] run function dumb:sneaker/start
 execute if entity @s[scores={sculkSneakToggle=0,iscrouched=0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{sneaker:1b}}}}] run function dumb:sneaker/end
 
@@ -60,14 +55,12 @@ execute if entity @s[scores={gundelay=..0,pistolammo=1..},nbt={SelectedItem:{id:
 execute if entity @s[scores={gundelay=..0,shotgunammo=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{shotgun:1b}}}}] run function dumb:guns/shotgun/start_raycast_master
 execute if entity @s[scores={gundelay=..0,rifleammo=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{rifle:1b}}}}] run function dumb:guns/rifle/start_raycast
 execute if entity @s[scores={gundelay=..0,sniperammo=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{sniper:1b}}}}] run function dumb:guns/sniper/start_raycast
-execute if entity @s[scores={gundelay=..0,bigironammo=1..,iscrouched=0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{bigiron:1b}}}}] run function dumb:guns/bigiron/start_raycast
-execute if entity @s[scores={gundelay=..0,bigironammo=1..,iscrouched=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{bigiron:1b}}}}] run function dumb:guns/bigiron/start_raycast_precise
+
 # Functions for reloading
 execute if entity @s[scores={gundelay=..0,pistolammo=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{pistol:1b}}}}] run function dumb:guns/pistol/reload
 execute if entity @s[scores={gundelay=..0,shotgunammo=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{shotgun:1b}}}}] run function dumb:guns/shotgun/reload
 execute if entity @s[scores={gundelay=..0,rifleammo=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{rifle:1b}}}}] run function dumb:guns/rifle/reload
 execute if entity @s[scores={gundelay=..0,sniperammo=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{sniper:1b}}}}] run function dumb:guns/sniper/reload
-execute if entity @s[scores={gundelay=..0,bigironammo=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{bigiron:1b}}}}] run function dumb:guns/bigiron/reload
 
 ## Misc
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{carbine:1b}}}}] run function dumb:carbine/start_raycast

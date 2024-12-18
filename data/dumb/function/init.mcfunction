@@ -12,6 +12,8 @@ scoreboard objectives add timerifted dummy
 scoreboard objectives add turretbarrel dummy
 scoreboard objectives add turretdelay dummy
 scoreboard objectives add weaponswitchtime dummy
+scoreboard objectives add hold_cooldown dummy
+scoreboard objectives add gausscharge dummy
 scoreboard objectives add pistolammo dummy
 scoreboard objectives add bigironammo dummy
 scoreboard objectives add shotgunammo dummy
@@ -60,6 +62,29 @@ scoreboard objectives add MotionY dummy
 scoreboard objectives add MotionZ dummy
 scoreboard objectives add luck dummy
 scoreboard objectives add sculkSneakToggle dummy
+
+# Knockback guys for tau cannon
+kill @e[tag=gauss_jump]
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
+summon ghast 0 255 0 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Health:2147483647f,Tags:["gauss_jump"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2147483647}]}
 
 execute as @a run function dumb:setcooldown
 

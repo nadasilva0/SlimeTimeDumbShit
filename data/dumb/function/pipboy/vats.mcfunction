@@ -1,7 +1,9 @@
-scoreboard players set @s charmcooldown 1000
+scoreboard players set @s charmcooldown 100
 playsound minecraft:custom.vatsactive master @a ~ ~ ~ 2 1
 
-effect give @a minecraft:glowing 10 0 true
-scoreboard players set @a vatsactive 1
+data merge entity @e[type=slime,limit=1,sort=nearest,tag=coin] {NoAI:1b}
+scoreboard players add .coin projdist 100
 
-schedule function dumb:pipboy/vatsdeactivate 10s
+execute as @e[distance=..20] run function dumb:pipboy/vatsfreeze
+
+schedule function dumb:pipboy/vatsdeactivate 5s

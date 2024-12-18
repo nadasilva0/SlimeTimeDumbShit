@@ -3,7 +3,7 @@ scoreboard players set @s gundelay 12
 
 scoreboard players remove @s[scores={bigironammo=1..}] bigironammo 1
 tp @s ~ ~ ~ ~ ~-0.5
-title @s actionbar ["",{"text":"[ ","color":"gold"},{"score":{"name":"@s","objective":"bigironammo"},"color":"gold"},{"text":"/6 ]","color":"gold"}]
+title @s actionbar ["",{"text":"[ ","color":"gold"},{"score":{"name":"@s","objective":"bigironammo"},"color":"gold"},{"text":"/7 ]","color":"gold"}]
 
 # Tag prevents current caster from being detected
 tag @s add raycasting

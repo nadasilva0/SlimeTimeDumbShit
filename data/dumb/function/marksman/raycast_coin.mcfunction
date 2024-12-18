@@ -10,7 +10,7 @@ execute as @e[tag=!raycasting,tag=!coin,type=!#slimelib:not_mob,dx=0] positioned
 scoreboard players add .distance tf_rc 1
 
 # Make raycast visible
-particle dust{color:[1.000,1.000,0.000],scale:1.5} ~ ~ ~ 0 0 0 0 1 force
+particle dust{color:[1.000,1.000,0.000],scale:1.3} ~ ~ ~ 0 0 0 0 1 force
 
 # Repeat the raycast if certain conditions are met
 # Parameters:

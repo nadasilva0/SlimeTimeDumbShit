@@ -5,8 +5,8 @@
 #     Edit not_mob.json in tags/entities to change which entities will not be targetted
 #     Change the "positioned" offsets to change projectile size
 #       - If > 1 block, just use one dx detection
-execute as @e[tag=!raycasting,type=!#slimelib:not_mob,dx=0] positioned ~-0.05 ~-0.05 ~-0.05 if entity @s[dx=0] positioned ~0.05 ~0.05 ~0.05 run function dumb:guns/bigiron/collide
-
+execute as @e[tag=!raycasting,tag=!coin,type=!#slimelib:not_mob,dx=0] positioned ~-0.05 ~-0.05 ~-0.05 if entity @s[dx=0] positioned ~0.05 ~0.05 ~0.05 run function dumb:guns/bigiron/collide
+execute as @e[tag=!raycasting,type=slime,tag=coin,dx=0] positioned ~-0.05 ~-0.05 ~-0.05 if entity @s[dx=0] positioned ~0.05 ~0.05 ~0.05 run function dumb:guns/bigiron/collide_coin
 # tag=!raycasting,
 
 scoreboard players add .distance tf_rc 1

@@ -1,0 +1,3 @@
+playsound minecraft:custom.railgun_charge_full player @a ~ ~ ~ 1 1
+item replace entity @s container.3 with bowl[consumable={consume_seconds:2147483647,animation:"bow"},item_model="slimetime:railgun",custom_data={railgun:1b,usable:true},custom_name='{"color":"#00D5FF","italic":false,"text":"Railgun"}',lore=['{"color":"#00D5FF","text":"[ 5 / 5 ]"}','"WARNING: WILL REPLACE SLOT 4"']] 1
+tag @a remove railguncharging

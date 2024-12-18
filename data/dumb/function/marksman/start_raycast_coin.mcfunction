@@ -7,7 +7,7 @@ tag @s add raycasting
 # Anchor to the eyes and position with vector coordinates (Remove if not running from eyes of entity)
 execute anchored eyes positioned ^ ^ ^ run function dumb:marksman/raycast_coin
 execute as @a at @s run playsound minecraft:custom.ricoshot player @s ~ ~ ~ 10 1
-kill @e[type=slime,tag=coin]
+execute unless score @s vatsactive matches 1 run kill @s
 
 # Remove the raycasting tag after raycast completion to prepare fo the next player
 tag @s remove raycasting

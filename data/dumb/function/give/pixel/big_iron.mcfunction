@@ -1,1 +1,1 @@
-give @s carrot_on_a_stick[custom_name='{"text":"Big Iron","italic":false}',unbreakable={},custom_data={bigiron:1b}] 1
+give @s bowl[consumable={consume_seconds:2147483647,animation:"bow"},item_model="slimetime:bigiron",custom_data={bigiron:1b,usable:true},custom_name='{"italic":false,"text":"Big Iron"}'] 1

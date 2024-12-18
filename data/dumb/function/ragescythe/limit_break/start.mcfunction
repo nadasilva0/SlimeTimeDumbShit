@@ -1,5 +1,5 @@
 #title @a title {"text":"LIMIT BREAK","color":"#FC88B5"}
-item replace entity @s hotbar.8 with carrot_on_a_stick[custom_name='{"bold":true,"color":"#D01455","italic":true,"text":"Scythe of Rage"}',lore=['{"color":"#6B0A2C","text":"Three."}'],unbreakable={},attribute_modifiers=[{id:"generic.attack_speed",type:"generic.attack_speed",amount:-1.3,operation:"add_value",slot:"mainhand"},{id:"generic.attack_damage",type:"generic.attack_damage",amount:13,operation:"add_value",slot:"mainhand"},{id:"generic.movement_speed",type:"generic.movement_speed",amount:1.3,operation:"add_multiplied_base",slot:"mainhand"}]] 1
+item replace entity @s hotbar.8 with carrot_on_a_stick[custom_name='{"bold":true,"color":"#D01455","italic":true,"text":"Scythe of Rage"}',lore=['{"color":"#6B0A2C","text":"Three."}'],unbreakable={},attribute_modifiers=[{id:"attack_speed",type:"attack_speed",amount:-1.3,operation:"add_value",slot:"mainhand"},{id:"attack_damage",type:"attack_damage",amount:13,operation:"add_value",slot:"mainhand"},{id:"movement_speed",type:"movement_speed",amount:1.3,operation:"add_multiplied_base",slot:"mainhand"}]] 1
 #schedule function dumb:ragescythe/limit_break/subtitle 25t
 
 ## Sets up markers for the limit break

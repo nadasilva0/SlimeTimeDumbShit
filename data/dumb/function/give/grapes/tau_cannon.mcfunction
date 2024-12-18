@@ -1,0 +1,1 @@
+give @s bowl[consumable={consume_seconds:20,animation:"bow",sound:"block.note_block.bass",has_consume_particles:false},item_model="slimetime:taucannon",custom_data={gaussgun:1b,usable:true},custom_name='{"color":"gold","italic":false,"text":"Tau Cannon"}',lore=['"Whaddya mean, \'Overcharge\'?"']] 1

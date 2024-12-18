@@ -11,4 +11,4 @@ function dumb:charms/meteor/sigilexplode3
 execute as @e[distance=1..10] run function dumb:charms/meteor/effect
 execute at @e[distance=1..10] run function dumb:charms/meteor/particleeffect
 playsound minecraft:block.beacon.power_select master @a ~ ~ ~ 2 1
-playsound minecraft:entity.generic.explode master @a ~ ~ ~ 2 0
+playsound minecraft:entity.explode master @a ~ ~ ~ 2 0

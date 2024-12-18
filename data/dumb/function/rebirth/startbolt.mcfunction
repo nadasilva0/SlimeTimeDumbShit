@@ -1,5 +1,5 @@
 title @a clear
-attribute @s minecraft:generic.gravity base set 0
+attribute @s minecraft:gravity base set 0
 
 scoreboard players set @s abilitytype 0
 summon interaction ~ ~ ~ {Tags:["rebirthbolt"]}

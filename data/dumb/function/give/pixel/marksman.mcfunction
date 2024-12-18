@@ -1,1 +1,1 @@
-give @s carrot_on_a_stick[custom_name='{"text":"Marksman Revolver","italic":false}',unbreakable={},custom_data={marksman:1b}] 1
+give @s bowl[consumable={consume_seconds:2147483647,animation:"bow"},item_model="slimetime:marksman",custom_data={marksman:1b,usable:true},custom_name='{"italic":false,"text":"Marksman Revolver"}'] 1

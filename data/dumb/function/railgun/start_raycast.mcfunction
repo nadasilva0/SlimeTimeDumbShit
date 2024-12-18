@@ -1,6 +1,8 @@
 ## Call this on entities which launch the raycast
 
-item replace entity @s weapon.mainhand with carrot_on_a_stick[custom_name='{"color":"#00D5FF","italic":false,"text":"Railgun"}',custom_data={railgun:1b}] 1
+clear @s bowl[custom_data={railgun:1b,usable:true}]
+item replace entity @s container.3 with bowl[item_model="slimetime:railgun_cooldown1",custom_name='{"color":"#00D5FF","italic":false,"text":"Railgun"}',lore=['{"color":"#00D5FF","text":"[ 0 / 5 ]"}','"WARNING: WILL REPLACE SLOT 4"']] 1
+tag @s add railguncharging
 
 # Tag prevents current caster from being detected
 tag @s add raycasting
@@ -11,5 +13,5 @@ playsound minecraft:custom.railgun_shoot player @a ~ ~ ~ 1 1
 
 # Remove the raycasting tag after raycast completion to prepare fo the next player
 tag @s remove raycasting
-tag @s remove charge
+schedule function dumb:railgun/chargeschedule2 10s
 scoreboard players reset .distance tf_rc

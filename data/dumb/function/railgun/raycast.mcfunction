@@ -5,12 +5,13 @@
 #     Edit not_mob.json in tags/entities to change which entities will not be targetted
 #     Change the "positioned" offsets to change projectile size
 #       - If > 1 block, just use one dx detection
-execute as @e[tag=!raycasting,type=!#slimelib:not_mob,dx=0] positioned ~-0.50 ~-0.50 ~-0.50 if entity @s[dx=0] positioned ~0.50 ~0.50 ~0.50 run function dumb:railgun/collide
+execute as @e[tag=!raycasting,tag=!coin,type=!#slimelib:not_mob,dx=0] positioned ~-0.50 ~-0.50 ~-0.50 if entity @s[dx=0] positioned ~0.50 ~0.50 ~0.50 run function dumb:railgun/collide
+execute as @e[tag=!raycasting,type=slime,tag=coin,dx=0] positioned ~-0.50 ~-0.50 ~-0.50 if entity @s[dx=0] positioned ~0.50 ~0.50 ~0.50 run function dumb:railgun/collide_coin
 
 scoreboard players add .distance tf_rc 1
 
 # Make raycast visible
-particle dust{color:[0.000,0.920,0.070],scale:2} ~ ~ ~ 0 0 0 1 1 force
+particle dust{color:[0.000,0.920,0.070],scale:1} ~ ~ ~ 0 0 0 1 2 force
 
 # Repeat the raycast if certain conditions are met
 # Parameters:

@@ -1,0 +1,1 @@
+give @s iron_boots[trim={material:"minecraft:amethyst",pattern:"minecraft:flow"},attribute_modifiers=[{id:"safe_fall_distance",type:"safe_fall_distance",amount:20,operation:"add_value",slot:"feet"},{id:"fall_damage_multiplier",type:"fall_damage_multiplier",amount:-0.5,operation:"add_multiplied_base",slot:"feet"}],custom_name='{"italic":false,"text":"Long-Fall Boots"}'] 1

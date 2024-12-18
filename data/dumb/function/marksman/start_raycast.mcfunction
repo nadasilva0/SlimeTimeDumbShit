@@ -7,7 +7,8 @@ tag @s add raycasting
 # Anchor to the eyes and position with vector coordinates (Remove if not running from eyes of entity)
 execute anchored eyes positioned ^ ^ ^ run function dumb:marksman/raycast
 playsound minecraft:custom.marksman_shoot player @a ~ ~ ~ 2 1
-scoreboard players set @s gundelay 10
+execute if score @s vatsactive matches 0 run scoreboard players set @s gundelay 10
+execute if score @s vatsactive matches 1 run scoreboard players set @s gundelay 18
 
 # Remove the raycasting tag after raycast completion to prepare fo the next player
 tag @s remove raycasting

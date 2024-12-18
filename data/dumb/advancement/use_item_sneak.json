@@ -1,0 +1,24 @@
+{
+	"criteria": {
+	  "use_item": {
+		"trigger": "minecraft:using_item",
+		"conditions": {
+		  "player": {
+			"flags": {
+			  "is_sneaking": true
+			}
+		  },
+		  "item": {
+			"predicates": {
+			  "minecraft:custom_data": {
+				"usable": true
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "dumb:usableselect_sneak"
+	}
+  }
