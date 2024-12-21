@@ -8,7 +8,7 @@ title @s actionbar ["",{"text":"[ ","color":"gold"},{"score":{"name":"@s","objec
 tag @s add raycasting
 
 # Anchor to the eyes and position with vector coordinates (Remove if not running from eyes of entity)
-execute anchored eyes positioned ^ ^ ^ run function dumb:guns/bigiron/raycast
+execute anchored eyes positioned ^ ^-0.03 ^ run function dumb:guns/bigiron/raycast
 playsound minecraft:custom.bigiron player @a ~ ~ ~ 1 1
 
 # Remove the raycasting tag after raycast completion to prepare fo the next player

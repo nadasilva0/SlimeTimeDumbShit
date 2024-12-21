@@ -1,1 +1,1 @@
-give @s bowl[consumable={consume_seconds:2147483647,animation:"bow"},item_model="slimetime:marksman",custom_data={marksman:1b,usable:true},custom_name='{"italic":false,"text":"Marksman Revolver"}'] 1
+give @s golden_horse_armor[consumable={consume_seconds:2147483647,animation:"bow"},item_model="slimetime:marksman",custom_data={marksman:1b,usable:true},custom_name='{"italic":false,"text":"Marksman Revolver"}'] 1

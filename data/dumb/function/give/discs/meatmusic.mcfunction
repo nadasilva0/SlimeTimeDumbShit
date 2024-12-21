@@ -1,1 +1,1 @@
-give @s minecraft:music_disc_13[minecraft:jukebox_playable={song:'dumb:meatmusic'},minecraft:custom_model_data=5] 1
+give @s minecraft:music_disc_13[minecraft:jukebox_playable={song:'dumb:meatmusic'},item_model="slimetime:music_disc_meatmusic"] 1
